@@ -1,75 +1,48 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+<h1 align="center">Welcome to anime-info-demo-api  👋</h1>
+<p align="left">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node->=9.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/npm->=5.0.0-blue.svg?cacheSeconds=2592000" />
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
 </p>
 
-[travis-image]: https://api.travis-ci.org/nestjs/nest.svg?branch=master
-[travis-url]: https://travis-ci.org/nestjs/nest
-[linux-image]: https://img.shields.io/travis/nestjs/nest/master.svg?label=linux
-[linux-url]: https://travis-ci.org/nestjs/nest
-  
-  <p align="center">A progressive <a href="http://nodejs.org" target="blank">Node.js</a> framework for building efficient and scalable server-side applications, heavily inspired by <a href="https://angular.io" target="blank">Angular</a>.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore"><img src="https://img.shields.io/npm/dm/@nestjs/core.svg" alt="NPM Downloads" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://api.travis-ci.org/nestjs/nest.svg?branch=master" alt="Travis" /></a>
-<a href="https://travis-ci.org/nestjs/nest"><img src="https://img.shields.io/travis/nestjs/nest/master.svg?label=linux" alt="Linux" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#5" alt="Coverage" /></a>
-<a href="https://gitter.im/nestjs/nestjs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=body_badge"><img src="https://badges.gitter.im/nestjs/nestjs.svg" alt="Gitter" /></a>
-<a href="https://opencollective.com/nest#backer"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
-  <a href="https://twitter.com/nestframework"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+> API using the anime-info library
 
-## Description
+### 🏠 [anime-info](https://github.com/1995Everton/anime-info.git#readme)
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+### ✨ [Demo](https://anime-info-demo-api-v2.herokuapp.com/naruto/pt-br/Itachi_Uchiha)
 
-## Installation
+## 👉 Instalar Dependências
 
-```bash
-$ npm install
+```sh
+npm install # yarn install
+```
+## 🚀 Uso
+```sh
+npm run dev # yarn dev
+```
+### 🐳 Docker (recomendado)
+```sh
+docker-compose up
 ```
 
-## Running the app
+## 💯 Version API using [Typescript](https://github.com/1995Everton/anime-info-demo-api/tree/master-typescript)
 
-```bash
-# development
-$ npm run start
+## 🧔Author
 
-# watch mode
-$ npm run start:dev
+👤 **1995Everton**
 
-# production mode
-$ npm run start:prod
-```
+* Github: [@1995Everton](https://github.com/1995Everton)
+* LinkedIn: [@EvertonCardoso](https://www.linkedin.com/in/everton-cardoso-a33556173/)
 
-## Test
+## 🤝 Contributing
 
-```bash
-# unit tests
-$ npm run test
+Contribuições, problemas e solicitações de recursos são bem-vindos!<br />Sinta-se livre para verificar [issues page](https://github.com/1995Everton/anime-info-demo-api/issues). Você também pode dar uma olhada no [contributing guide](https://github.com/1995Everton/anime-info-demo-api/blob/master/CONTRIBUTING.md).
 
-# e2e tests
-$ npm run test:e2e
+## Show your support
 
-# test coverage
-$ npm run test:cov
-```
+Dê um ⭐️ se este projeto ajudou você!
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
