@@ -1,67 +1,40 @@
 {
-  "name": "anime-info-demo-api",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon src/server.ts",
+    "start": "npm run build && node dist/server",
+    "lint": "eslint --ext .js,.vue .",
     "prebuild": "rimraf dist",
-    "build": "nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
-    "start:dev": "nest start --watch",
-    "start:debug": "nest start --debug --watch",
-    "start:prod": "node dist/main",
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:cov": "jest --coverage",
-    "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "build": "sucrase ./src -d ./dist --transforms typescript,imports"
   },
   "dependencies": {
-    "@nestjs/common": "^6.10.14",
-    "@nestjs/core": "^6.10.14",
-    "@nestjs/platform-express": "^6.10.14",
-    "anime-info": "^1.0.1",
-    "reflect-metadata": "^0.1.13",
-    "rimraf": "^3.0.0",
-    "rxjs": "^6.5.4"
+    "anime-info": "^1.0.7",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19"
   },
   "devDependencies": {
-    "@nestjs/cli": "^6.13.2",
-    "@nestjs/schematics": "^6.8.1",
-    "@nestjs/testing": "^6.10.14",
-    "@types/express": "^4.17.2",
-    "@types/jest": "25.1.2",
-    "@types/node": "^13.1.6",
-    "@types/supertest": "^2.0.8",
-    "@typescript-eslint/eslint-plugin": "^2.12.0",
-    "@typescript-eslint/parser": "^2.12.0",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-import": "^2.19.1",
-    "jest": "^24.9.0",
-    "prettier": "^1.18.2",
-    "supertest": "^4.0.2",
-    "ts-jest": "25.2.0",
-    "ts-loader": "^6.2.1",
-    "ts-node": "^8.6.0",
-    "tsconfig-paths": "^3.9.0",
-    "typescript": "^3.7.4"
-  },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/mongodb": "^3.1.22",
+    "@types/mongoose": "^5.3.23",
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.3",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3",
+    "sucrase": "^3.10.0",
+    "typescript": "^3.3.3333"
   }
 }
